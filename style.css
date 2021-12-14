@@ -35,3 +35,8 @@ body{
     height: 1000px;
     background-color: #EBEBEB;
 }
+
+.sidebar-nav a{
+    text-decoration: none;
+
+}
