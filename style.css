@@ -19,13 +19,13 @@ body{
 
 .main-nav{
     float: left;
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
-.main-header a{
+.main-header h1{
     font-family: "Bradley Hand ITC", sans-serif;
-    font-size: 290%;
+    font-size: 300%;
     color: #ffffff;
 }
 
