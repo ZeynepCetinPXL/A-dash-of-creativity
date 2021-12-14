@@ -9,7 +9,7 @@ main {
 }
 
 .main-header{
-    background-color: #CFBAF0;
+    background-color: #002191;
     padding-bottom: 10rem ;
     position: relative;
 }
@@ -26,25 +26,10 @@ main {
     color: #ffffff;
 }
 
-.page-banner {
-    background-color: #002191;
-    position: fixed;
-    width: 100%;
-    height: 18%;
-    z-index: 1;
-}
-
 #alpacaLogo{
     float: left;
     margin: 20px;
     width: 90px;
-}
-
-
-#website_name {
-    font-family: "Bradley Hand ITC", sans-serif;
-    font-size: 250%;
-    color: #ffffff;
 }
 
 .page-sidebar{
@@ -53,6 +38,25 @@ main {
     height: 1000px;
     background-color: #FFFFFF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #main-image-text-container {
     position:absolute;
