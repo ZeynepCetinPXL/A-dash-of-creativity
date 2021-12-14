@@ -7,15 +7,33 @@
     <link rel="stylesheet" href="hanne_style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="page-banner">
-            <img id="alpacaLogo" src="assets/hanne/AlpacaGrayTransparantLogo.png" alt="FatAlpaca">
-            <h1 id="website_name">A dash of creativity</h1>
-        </div>
-    </header>
+<header class="main-header">
+    <div class="container-header">
+        <a href="home.html"><img id="alpacaLogo" src="assets/FatAlpacaTransparantLogo.png" alt="FatAlpaca"></a>
+        <nav class="main-nav">
+            <h1>A dash of creativity</h1>
+        </nav>
+    </div>
+</header>
 
     <aside class="page-sidebar">
-        <h1 class="page-title">links</h1>
+        <nav class="sidebar-nav">
+            <a href="home.html">Home</a>
+            <div class="dropdown">
+                <button class="dropdown-button" >Hanne</button>
+                <div class="dropdown-links">
+                    <a href="dashboard.html"></a>
+                    <a href="curriculumvitea.html"></a>
+                    <a href="hanne.html"></a>
+                </div>
+                <button class="dropdown-button" >Zeynep</button>
+                <div class="dropdown-links">
+                    <a href="dashboard.html"></a>
+                    <a href="curriculumvitea.html"></a>
+                    <a href="zeynep.html"></a>
+                </div>
+            </div>
+        </nav>
     </aside>
 
     <main>
@@ -32,8 +50,21 @@
             <p id="scroll-text">Scroll naar beneden</p>
         </div>
 
-        <div>
+        <div id="car_container">
 
+        </div>
+        <div id="race-track-container">
+            <img id="race-track" src="assets/hanne/race_track.png" alt="Race track">
+        </div>
+
+        <div id="left-side-milestones">
+            <img id="mijlpaal2" src="assets/hanne/mijlpaal2.png" alt="Mijlpaal 20km">
+            <img id="mijlpaal4" src="assets/hanne/mijlpaal4.png" alt="Mijlpaal 40km">
+        </div>
+        <div id="right-side-milestones">
+            <img id="mijlpaal1" src="assets/hanne/mijlpaal1.png" alt="Mijlpaal 10km">
+            <img id="mijlpaal3" src="assets/hanne/mijlpaal3.png" alt="Mijlpaal 30km">
+            <img id="mijlpaal5" src="assets/hanne/mijlpaal5.png" alt="Mijlpaal 50km">
         </div>
     </main>
 </body>
