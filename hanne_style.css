@@ -33,13 +33,52 @@ main {
 }
 
 .page-sidebar{
+    z-index: 1;
     float: left;
-    width: 150px;
-    height: 1000px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
     background-color: #FFFFFF;
 }
 
+.dropdown, .home-button{
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 2px solid #002191;
+}
 
+.icon{
+    width: 60px;
+    padding-top: 10px;
+}
+
+.sidebar-nav a, .dropdown-button{
+    border: none;
+    float: right;
+    display: block;
+    color: #002191;
+    cursor: pointer;
+    font-size: 180%;
+    background: none;
+    padding-top: 25px;
+    text-decoration: none;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.sidebar-nav a:hover, .dropdown-button:hover{
+    color: silver;
+    background: none;
+    /*border-bottom: 2px solid #a29aa2;*/
+}
+
+.dropdown-links{
+    display: none;
+    font-size: 70%;
+}
+
+.dropdown:hover .dropdown-links{
+    display: contents;
+}
 
 
 
@@ -100,6 +139,7 @@ main {
 
 #left-side-milestones {
     border: 1px solid blue;
+    float: left;
     position: absolute;
     left: 35%;
     top: 130%;
