@@ -1,20 +1,27 @@
+*{
+    box-sizing: border-box;
+
+}
+
 body{
     margin: 0;
-    font-family: sans-serif;
     color: rgb(75,75,75);
+    font-family: sans-serif;
     background-color: #FEFDF8;
 }
 
 .main-header{
-    background-color: #CFBAF0;
-    padding-bottom: 10rem ;
     position: relative;
+    padding-bottom: 170px;
+    background-color: #CFBAF0;
+
 }
 
 #alpacaLogo{
     float: left;
-    margin: 20px;
-    width: 90px;
+    margin: 10px;
+    width: 150px;
+    padding-left: 25px;
 }
 
 .main-nav{
@@ -24,19 +31,75 @@ body{
 }
 
 .main-header h1{
-    font-family: "Bradley Hand ITC", sans-serif;
-    font-size: 300%;
     color: #ffffff;
+    font-size: 400%;
+    margin-left: 40px;
+    font-family: "Bradley Hand ITC", sans-serif;
 }
 
 .page-sidebar{
+    z-index: 1;
     float: left;
-    width: 150px;
-    height: 1000px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
     background-color: #EBEBEB;
 }
 
-.sidebar-nav a{
-    text-decoration: none;
+.dropdown, .home-button{
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 2px solid #a29aa2;
+}
 
+.icon{
+    width: 60px;
+    padding-top: 10px;
+}
+
+.sidebar-nav a, .dropdown-button{
+    border: none;
+    float: right;
+    display: block;
+    color: #75757c;
+    cursor: pointer;
+    font-size: 180%;
+    background: none;
+    padding-top: 25px;
+    text-decoration: none;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.sidebar-nav a:hover, .dropdown-button:hover{
+    color: #CFBAF0;
+    background: none;
+    /*border-bottom: 2px solid #a29aa2;*/
+}
+
+.dropdown-links{
+    display: none;
+    font-size: 70%;
+}
+
+.dropdown:hover .dropdown-links{
+    display: contents;
+}
+
+/*margin en padding: top right bottom left*/
+.container{
+    margin: 100px 100px 400px 300px;
+}
+
+.profiel-foto{
+    width: 25%;
+    float: left;
+    padding: 50px;
+    border: 2px solid mediumpurple;
+}
+
+.profiel-info{
+    width: 75%;
+    float: left;
+    padding: 100px;
+    border: 2px solid purple;
 }
