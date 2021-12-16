@@ -185,7 +185,6 @@ h2 {
 
 #content-container {
     z-index: 2;
-    border: 1px solid red;
     position: relative;
     top: 130%;
 }
@@ -195,13 +194,12 @@ h2 {
     position: sticky;
     margin-top: 2%;
     padding: 0;
-    top: 35%;
+    top: 10%;
     left: 44.57%;
-    border: 1px solid blue;
     width: 12%;
 }
 
-#car-image {
+#car-image, .images {
     width: 100%;
     display: block;
     object-fit: cover;
@@ -211,14 +209,36 @@ h2 {
     position: relative;
     width: 557px;
     left: 36%;
-    border: 1px solid green;
 }
 
-#mijn-huisdieren-container {
-
+#content-text-container {
+    position: absolute;
+    top: 22.8%;
+    width: 100%;
+    left: 0;
+    border: 1px solid blue;
 }
 
-#mijn-studentenjob-container {
+.image-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#mijn-huisdieren-container, #mijn-studentenjob-container, #mijn-muziek-container {
+    width: 32%;
+    float: right;
+    margin-right: 2%;
+    text-align: left;
+    left: 50%;
+    border: 1px solid orange;
+}
+
+#mijn-oldtimer-container, #mijn-collectie-container {
+    width: 34%;
+    float: left;
+    text-align: right;
+    margin-left: 2%;
+    border: 1px solid deeppink;
 
 }
 
@@ -226,12 +246,20 @@ h2 {
 
 }
 
-#mijn-collectie-container {
+#mijn-studentenjob-container {
+    clear: both;
+    border: 1px solid darkolivegreen;
+}
 
+#mijn-collectie-container {
+    clear: both;
+    border: 1px solid darkturquoise;
 }
 
 #mijn-muziek-container {
-
+    clear: bottom;
+    top: 100%;
+    border: 1px solid darkslateblue;
 }
 
 
