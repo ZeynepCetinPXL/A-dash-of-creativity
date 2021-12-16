@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: "Pilo Thin", "sans-serif";
+    font-weight: bolder;
     background-color: #F2F2F2;
 }
 
@@ -22,6 +23,7 @@ main {
 
 .main-header h1{
     font-family: "Bradley Hand ITC", sans-serif;
+    font-weight: normal;
     font-size: 300%;
     color: #ffffff;
 }
@@ -70,6 +72,7 @@ main {
     margin-top: 6%;
     margin-right: 8%;
     text-decoration: none;
+    font-weight: bolder;
     font-family: "Pilo Thin", "sans-serif";
 }
 
@@ -126,9 +129,9 @@ main {
 
 #main-text-container {
     margin-top: 1%;
-    left: -5%;
+    left: -7%;
     float: right;
-    width: 40%;
+    width: 38%;
 }
 
 #naam {
@@ -138,7 +141,7 @@ main {
 #slogan {
     margin-top: 2%;
     font-family: "Bradley Hand ITC", sans-serif;
-    font-weight: lighter;
+    font-weight: bold;
     font-style: italic;
 }
 
