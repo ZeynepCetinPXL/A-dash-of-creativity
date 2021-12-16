@@ -34,17 +34,16 @@ main {
 
 #art-hanne {
     float: right;
-    width: 161px;
+    width: 160px;
     margin-right: 5%;
-    padding-bottom: 10rem;
 }
 
 .page-sidebar{
     z-index: 1;
     float: left;
     width: 200px;
-    height: 100%;
-    position: fixed;
+    height: 77vh;
+    position: relative;
     background-color: #FFFFFF;
 }
 
@@ -55,8 +54,9 @@ main {
 }
 
 .icon{
-    width: 60px;
+    width: 40px;
     padding-top: 10px;
+    float: left;
 }
 
 .sidebar-nav a, .dropdown-button{
@@ -64,10 +64,11 @@ main {
     float: right;
     display: block;
     color: #002191;
-    cursor: pointer;
-    font-size: 180%;
     background: none;
-    padding-top: 25px;
+    cursor: pointer;
+    font-size: 150%;
+    margin-top: 6%;
+    margin-right: 8%;
     text-decoration: none;
     font-family: "Pilo Thin", "sans-serif";
 }
@@ -98,38 +99,55 @@ main {
 
 
 
+#image-text-container {
+    position: relative;
+    height: 77vh;
+}
 
+#main-text-container, #main-image-container, #main-scroll-container {
+    margin-top: 1.5%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+}
 
-
-
-
-
-#main-image-text-container {
-    position:absolute;
-    top: 32%;
-    left: 15%;
-    right: 5%;
-    padding: 0;
-    margin: 0;
+#main-image-container {
+    left: 4%;
+    float: left;
+    width: 35%;
 }
 
 #main-image {
-    float: left;
-    width: 45%;
+    display: block;
     object-fit: cover;
-    margin-right: 2%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#main-text-container {
+    margin-top: 1%;
+    left: -5%;
+    float: right;
+    width: 40%;
+}
+
+#naam {
+    margin-top: 5%;
 }
 
 #slogan {
+    margin-top: 2%;
     font-family: "Bradley Hand ITC", sans-serif;
     font-weight: lighter;
     font-style: italic;
 }
 
+#main-tekst {
+    margin-top: 2%;
+}
+
 #main-scroll-container {
-    position: absolute;
-    top: 92%;
-    left: 48%;
+    top: 88%;
     text-align: center;
 }
 
