@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-
 }
 
 body{
@@ -18,21 +17,20 @@ body{
 
 #alpacaLogo{
     float: left;
-    margin: 10px;
+    margin: 10px 0px 0px 10px;
     width: 150px;
     padding-left: 25px;
 }
 
 .main-nav{
+    /*border: 2px solid #a29aa2;*/
     float: left;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin: 0px 0px -40px 40px;
 }
 
 .main-header h1{
     color: #ffffff;
     font-size: 400%;
-    margin-left: 40px;
     font-family: "Bradley Hand ITC", sans-serif;
 }
 
@@ -40,13 +38,14 @@ body{
     z-index: 1;
     float: left;
     width: 200px;
-    height: 100%;
-    position: fixed;
+    height: 100vh;
+    position: relative;
     background-color: #EBEBEB;
+    border: 2px solid #a29aa2;
 }
 
 .dropdown, .home-button{
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
     border-bottom: 2px solid #a29aa2;
 }
@@ -56,17 +55,29 @@ body{
     padding-top: 10px;
 }
 
-.sidebar-nav a, .dropdown-button{
+.sidebar-nav a{
+    float: right;
+    color: #75757c;
+    cursor: pointer;
+    font-size: 140%;
+    padding-top: 20px;
+    padding-right: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.dropdown-button{
     border: none;
     float: right;
     display: block;
     color: #75757c;
     cursor: pointer;
-    font-size: 180%;
+    font-size: 150%;
     background: none;
     padding-top: 20px;
-    text-decoration: none;
     font-weight: bolder;
+    text-decoration: none;
     font-family: "Pilo Thin", "sans-serif";
 }
 
