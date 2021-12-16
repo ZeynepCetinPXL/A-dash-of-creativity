@@ -27,7 +27,6 @@ main {
 
 .main-header h1{
     font-family: "Bradley Hand ITC", sans-serif;
-    font-weight: normal;
     font-size: 300%;
     color: #ffffff;
 }
@@ -48,7 +47,7 @@ main {
     z-index: 1;
     float: left;
     width: 200px;
-    height: 77vh;
+    height: 83vh;
     position: relative;
     background-color: #FFFFFF;
 }
@@ -60,9 +59,8 @@ main {
 }
 
 .icon{
-    width: 40px;
+    width: 50px;
     padding-top: 10px;
-    float: left;
 }
 
 .sidebar-nav a, .dropdown-button{
@@ -73,8 +71,7 @@ main {
     background: none;
     cursor: pointer;
     font-size: 150%;
-    margin-top: 6%;
-    margin-right: 8%;
+    padding-top: 20px;
     text-decoration: none;
     font-weight: bolder;
     font-family: "Pilo Thin", "sans-serif";
@@ -108,7 +105,7 @@ main {
 
 #image-text-container {
     position: relative;
-    height: 77vh;
+    height: 83vh;
 }
 
 #main-text-container, #main-image-container, #main-scroll-container {
@@ -133,7 +130,7 @@ main {
 
 #main-text-container {
     margin-top: 1%;
-    left: -7%;
+    left: -9%;
     float: right;
     width: 38%;
 }
