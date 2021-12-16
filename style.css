@@ -1,3 +1,5 @@
+/*margin en padding: top right bottom left*/
+
 *{
     box-sizing: border-box;
 }
@@ -41,28 +43,29 @@ body{
     height: 100vh;
     position: relative;
     background-color: #EBEBEB;
-    border: 2px solid #a29aa2;
 }
 
 .dropdown, .home-button{
-    padding: 20px;
     overflow: hidden;
+    padding-right: 10px;
     border-bottom: 2px solid #a29aa2;
 }
 
 .icon{
-    width: 50px;
+    width: 70px;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
 }
 
 .sidebar-nav a{
     float: right;
     color: #75757c;
     cursor: pointer;
-    font-size: 130%;
-    padding-top: 20px;
+    font-size: 140%;
     padding-right: 5px;
     font-weight: bolder;
+    padding-bottom: 20px;
     text-decoration: none;
     font-family: "Pilo Thin", "sans-serif";
 }
@@ -72,10 +75,9 @@ body{
     float: right;
     display: block;
     color: #75757c;
-    cursor: pointer;
     font-size: 150%;
     background: none;
-    padding-top: 20px;
+    padding-top: 25px;
     font-weight: bolder;
     text-decoration: none;
     font-family: "Pilo Thin", "sans-serif";
@@ -96,7 +98,6 @@ body{
     display: contents;
 }
 
-/*margin en padding: top right bottom left*/
 .container{
     margin: 100px 100px 400px 300px;
 }
