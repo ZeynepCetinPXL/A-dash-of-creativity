@@ -88,7 +88,7 @@ body{
 #homeButton {
     -webkit-appearance: button;
     -moz-appearance: button;
-    appearance: button;
+    appearance: none;
 }
 
 .sidebar-nav a:hover, .dropdown-button:hover{
