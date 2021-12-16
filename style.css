@@ -83,6 +83,12 @@ body{
     font-family: "Pilo Thin", "sans-serif";
 }
 
+#homeButton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+
 .sidebar-nav a:hover, .dropdown-button:hover{
     color: #CFBAF0;
     background: none;
