@@ -7,41 +7,51 @@
 body{
     margin: 0;
     color: rgb(75,75,75);
-    font-family: "Calibri Light", sans-serif;
     background-color: #FEFDF8;
+    font-family: "Calibri Light", sans-serif;
 }
 
 .main-header{
     position: relative;
-    padding-bottom: 170px;
+    padding-bottom: 50px;
     background-color: #CFBAF0;
 }
 
 #alpaca-logo{
     float: left;
-    margin: 10px 0px 0px 10px;
     width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
     padding-left: 25px;
 }
+/*margin en padding: top right bottom left*/
 
 .main-nav{
-    /*border: 2px solid #a29aa2;*/
-    float: left;
-    margin: 0px 0px -40px 40px;
+    padding-left: 200px;
 }
 
 .main-header h1{
+    margin: 0;
     color: #ffffff;
     font-size: 400%;
+    padding-top: 60px;
     font-family: "Bradley Hand ITC", sans-serif;
 }
 
+.main-header h2{
+    top: 90px;
+    float: left;
+    color: #75757c;
+    font-size: 300%;
+    position: absolute;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
 .page-sidebar{
-    z-index: 1;
     float: left;
     width: 200px;
-    height: 100vh;
-    position: relative;
+    height: 100%;
+    position: absolute;
     background-color: #EBEBEB;
 }
 
@@ -105,15 +115,15 @@ body{
 }
 
 .container{
-    margin: 80px 100px 450px 300px;
     border: 2px solid #FEFDF8;
+    margin: 80px 100px 450px 300px;
 }
 
 
 .main-image {
     width: 100%;
-    object-fit: cover;
     display: block;
+    object-fit: cover;
 }
 
 .profiel-foto{
@@ -130,8 +140,8 @@ body{
 }
 
 .naam, .slogan {
-    font-family: "Pilo Thin", "sans-serif";
     font-weight: bolder;
+    font-family: "Pilo Thin", "sans-serif";
 }
 
 .slogan {
@@ -145,11 +155,12 @@ body{
 /* Dashboard */
 
 .container-mini{
-    margin: 80px 100px 100px 300px;
     border: 2px solid #FEFDF8;
+    margin: 80px 100px 100px 300px;
 }
 
 .opsomming{
+    width: 30%;
     float: left;
     font-family: "Pilo Thin", "sans-serif";
 }
@@ -169,18 +180,18 @@ body{
 }
 
 .video{
-    margin-bottom: -1%;
-    border: 2px solid gray;
-    border-bottom: 0px;
     border-radius: 25px 25px 0px 0px;
+    border: 2px solid gray;
+    margin-bottom: -1%;
+    border-bottom: 0;
 }
 
 .ervaring-blok-info{
-    padding: 20px;
+    border-radius: 0px 0px 25px 25px;
     background-color: #EBEBEB;
     border: 2px solid gray;
-    border-top: 0px;
-    border-radius: 0px 0px 25px 25px;
+    border-top: 0;
+    padding: 20px;
 }
 
 .ervaring-blok-info h1{
@@ -188,9 +199,128 @@ body{
 }
 
 .opsomming-blok-info{
+    padding: 10px;
     margin-top: -20px;
-    padding: 20px;
-    background-color: #EBEBEB;
+    border-radius: 25px;
     border: 2px solid gray;
-    border-radius: 25px 25px 25px 25px;
+    background-color: #EBEBEB;
 }
+
+/* Curriculum Vitea */
+
+.container-cv{
+    margin: 80px 100px 450px 300px;
+}
+
+.cv-blok, .cv-blok-midden{
+    width: 30%;
+    float: left;
+}
+
+.cv-blok-info{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #CFBAF0;
+    background-color: #EBEBEB;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.vaardigheden{
+    width: 70%;
+    float: left;
+}
+
+.vaardigheden-maten{
+    width: 30%;
+    float: right;
+}
+
+.vaardigheden-maten h2{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    background-color: #CFBAF0;
+}
+
+.cv-blok-midden{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cv-blok-midden img{
+    width: 100%;
+}
+
+.cv-blok-info p{
+    padding: 5px;
+    margin-top: -17px;
+    border-radius: 5px;
+    background-color: #CFBAF0;
+}
+
+/* processbar zeynep */
+.bar-nederlands-z{
+    width: 80%;
+}
+
+.bar-Engels-z{
+    width: 70%;
+}
+
+.bar-Turks-z{
+    width: 60%;
+}
+
+.bar-Frans-z{
+    width: 20%;
+}
+
+/* processbar Hanne */
+.bar-nederlands-z{
+    width: 80%;
+}
+
+.bar-Engels-z{
+    width: 70%;
+}
+
+.bar-Turks-z{
+    width: 40%;
+}
+
+.bar-Frans-z{
+    width: 20%;
+}
+
+.cv-blok-opleiding{
+    float: left;
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid #CFBAF0;
+    background-color: #EBEBEB;
+    padding: 10px 10px 10px 20px;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.opleiding{
+    width: 70%;
+    float: left;
+    border-bottom: 2px solid #CFBAF0;
+}
+
+.opleiding-jaar{
+    width: 30%;
+    float: right;
+    border-bottom: 2px solid #CFBAF0;
+}
+
+.cv-blok-opleiding p{
+    font-size: 140%;
+    padding-top: 70px;
+}
+
+
+
