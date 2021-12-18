@@ -23,7 +23,7 @@ body{
 
 #art-hanne {
     float: right;
-    width: 160px;
+    width: 167px;
     margin-right: 5%;
 }
 
@@ -213,7 +213,7 @@ h2 {
     width: 72%;
 }
 
-.tekst {
+.tekst, #info-tekst {
     margin-top: 2%;
     font-family: "Calibri Light", sans-serif;
     font-size: 20px;
@@ -231,6 +231,9 @@ h2 {
 }
 
 #congrats-tekst {
+    margin-top: 2%;
+    font-family: "Calibri Light", sans-serif;
+    font-size: 20px;
     width: 100%;
 }
 
@@ -264,4 +267,164 @@ h2 {
 #mijn-muziek-container {
     position: absolute;
     top: 834%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .page-sidebar{
+        float: left;
+        width: 200px;
+        height: 87vh;
+        position: absolute;
+        background-color: #FFFFFF;
+    }
+
+    #art-hanne {
+        float: right;
+        width: 170px;
+        margin-right: 5%;
+    }
+
+    #image-text-container {
+        position: relative;
+        height: 87vh;
+    }
+
+    #main-text-container {
+        margin: 0 auto;
+        float: right;
+        clear: both;
+        width: 62%;
+    }
+
+    #main-image-container {
+        margin-top: 4%;
+        margin-bottom: 2%;
+        left: 32%;
+        width: 50%;
+    }
+
+    #main-image {
+        display: block;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #main-scroll-container {
+        top: 95%;
+        margin: 0 auto;
+        width: 35%;
+    }
+
+    #scroll-text {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        margin: 0;
+        font-family: "Pilo Thin", "sans-serif";
+        font-weight: bolder;
+    }
+
+    #content-container {
+        margin-top: 5%;
+        height: 3500px;
+    }
+
+    #race-track-container {
+        z-index: 3;
+        float: left;
+        height: 100%;
+        width: 260px;
+    }
+
+    #race-track {
+        width: 100%;
+    }
+
+    #car_container {
+        z-index: 1;
+        position: sticky;
+        padding: 0;
+        top: 45%;
+        left: 4%;
+        width: 12%;
+    }
+
+    .tekst {
+        font-size: 20px;
+    }
+
+    #info-tekst {
+        margin-top: 2%;
+        font-family: "Calibri Light", sans-serif;
+        font-size: 20px;
+        float: left;
+        width: 100%;
+    }
+
+    #mijn-huisdieren-container{
+        position: absolute;
+        top: 145%;
+    }
+
+    #huisdieren-image {
+        margin-top: 46%;
+    }
+
+    #mijn-oldtimer-container {
+        position: absolute;
+        top: 278%;
+    }
+
+    #oldtimer-image {
+        margin-top: 69%;
+    }
+
+    #mijn-studentenjob-container {
+        position: absolute;
+        top: 411%;
+    }
+
+    #studentenjob-image {
+        margin-top: 27%;
+    }
+
+    #mijn-collectie-container {
+        position: absolute;
+        top: 543%;
+    }
+
+    #collectie-image {
+        margin-top: 33%;
+    }
+
+    #mijn-muziek-container {
+        position: absolute;
+        top: 677%;
+    }
+
+    #muziek_image {
+        margin-top: 42%;
+    }
+
+    .image-container {
+        width: 25%;
+        float: right;
+        display: block;
+        object-fit: cover;
+    }
+
+    #congrats-container {
+        position: absolute;
+        clear: both;
+        left: -19%;
+        top: 850%;
+        width: 100%;
+    }
+
+    #congrats-tekst {
+        float: none;
+    }
 }
