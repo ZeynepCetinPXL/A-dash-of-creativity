@@ -233,16 +233,18 @@ body{
     #specialisatie-info-blok {
         margin: 0px 30px 300px 10px;
         width: 100%;
-
     }
 
-    #ervaring-midden-blok-hanne {
+    #ervaring-midden-blok {
         padding-top: 13px;
     }
 
-    #ervaring-rechts-blok-hanne {
+    #ervaring-rechts-blok {
         padding-bottom: 39px;
     }
+
+    /* Curriculum Vitae */
+
 }
 
 /* Curriculum Vitea */
