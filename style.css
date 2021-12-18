@@ -122,14 +122,12 @@ body{
 .profiel-foto{
     width: 35%;
     float: left;
-    border: 2px solid mediumpurple;
 }
 
 .profiel-info{
     width: 65%;
     float: left;
     padding: 50px;
-    border: 2px solid purple;
 }
 
 .naam, .slogan {
@@ -143,6 +141,30 @@ body{
 
 .main-tekst {
     font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .container {
+        margin: 40px 30px 450px 240px;
+    }
+
+    .profiel-foto {
+        width: 50%;
+    }
+
+    #main-image-zeynep {
+        padding-top: 55%;
+    }
+
+    #main-image-hanne {
+        padding-top: 35%;
+    }
+
+    .profiel-info {
+        width: 50%;
+        padding: 10px 25px;
+    }
 }
 
 /* Dashboard */
