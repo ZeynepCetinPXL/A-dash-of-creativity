@@ -94,7 +94,6 @@ body{
 .sidebar-nav a:hover, .dropdown-button:hover{
     color: silver;
     background: none;
-    /*border-bottom: 2px solid #a29aa2;*/
 }
 
 
@@ -106,17 +105,6 @@ body{
 .dropdown:hover .dropdown-links{
     display: contents;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 #image-text-container {
     position: relative;
@@ -158,12 +146,14 @@ body{
 #slogan {
     margin-top: 2%;
     font-family: "Pilo Thin", "sans-serif";
+    color: black;
     font-weight: bold;
     font-style: italic;
 }
 
-#tekst {
+#main-tekst {
     margin-top: 2%;
+    font-family: "Calibri Light", sans-serif;
     font-size: 20px;
 }
 
@@ -187,15 +177,21 @@ h2 {
     z-index: 2;
     position: relative;
     top: 130%;
+    height: 4100px;
+}
+
+#race-track-container {
+    z-index: 3;
+    float: left;
+    width: 557px;
 }
 
 #car_container {
     z-index: 1;
     position: sticky;
-    margin-top: 2%;
     padding: 0;
-    top: 10%;
-    left: 44.57%;
+    top: 45%;
+    left: 3.6%;
     width: 12%;
 }
 
@@ -205,64 +201,67 @@ h2 {
     object-fit: cover;
 }
 
-#race-track-container {
-    position: relative;
-    width: 557px;
-    left: 36%;
-}
-
 #content-text-container {
     position: absolute;
-    top: 22.8%;
+    top: 0;
+    left: 27%;
+    width: 71%;
+}
+
+h2 {
+    color: #002191;
+    width: 72%;
+}
+
+.tekst {
+    margin-top: 2%;
+    font-family: "Calibri Light", sans-serif;
+    font-size: 20px;
+    float: left;
+    width: 72%;
+}
+
+#uitleg-container {
+    margin-top: 2%;
+}
+
+#congrats-container {
+    position: absolute;
+    top: 1050%;
+}
+
+#congrats-tekst {
     width: 100%;
-    left: 0;
-    border: 1px solid blue;
 }
 
 .image-container {
-    width: 75%;
-    margin: 0 auto;
-}
-
-#mijn-huisdieren-container, #mijn-studentenjob-container, #mijn-muziek-container {
-    width: 32%;
+    width: 25%;
     float: right;
-    margin-right: 2%;
-    text-align: left;
-    left: 50%;
-    border: 1px solid orange;
+    display: block;
+    object-fit: cover;
 }
 
-#mijn-oldtimer-container, #mijn-collectie-container {
-    width: 34%;
-    float: left;
-    text-align: right;
-    margin-left: 2%;
-    border: 1px solid deeppink;
-
+#mijn-huisdieren-container{
+    position: absolute;
+    top: 238%;
 }
 
 #mijn-oldtimer-container {
-
+    position: absolute;
+    top: 388%;
 }
 
 #mijn-studentenjob-container {
-    clear: both;
-    border: 1px solid darkolivegreen;
+    position: absolute;
+    top: 535%;
 }
 
 #mijn-collectie-container {
-    clear: both;
-    border: 1px solid darkturquoise;
+    position: absolute;
+    top: 685%;
 }
 
 #mijn-muziek-container {
-    clear: bottom;
-    top: 100%;
-    border: 1px solid darkslateblue;
+    position: absolute;
+    top: 834%;
 }
-
-
-
-
-
