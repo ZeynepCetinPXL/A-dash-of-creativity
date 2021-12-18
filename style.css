@@ -79,7 +79,6 @@ body{
     text-decoration: none;
     font-family: "Pilo Thin", "sans-serif";
 }
-
 .dropdown-button{
     border: none;
     float: right;
@@ -178,7 +177,7 @@ body{
 }
 
 .ervaring-blok-info{
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0 25px 25px;
     background-color: #EBEBEB;
     border: 2px solid gray;
     border-top: 0;
