@@ -122,14 +122,12 @@ body{
 .profiel-foto{
     width: 35%;
     float: left;
-    border: 2px solid mediumpurple;
 }
 
 .profiel-info{
     width: 65%;
     float: left;
     padding: 50px;
-    border: 2px solid purple;
 }
 
 .naam, .slogan {
@@ -197,6 +195,55 @@ body{
     border-radius: 25px;
     border: 2px solid gray;
     background-color: #EBEBEB;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* Home */
+    .container {
+        margin: 40px 30px 450px 240px;
+    }
+
+    .profiel-foto {
+        width: 50%;
+    }
+
+    #main-image-zeynep {
+        padding-top: 55%;
+    }
+
+    #main-image-hanne {
+        padding-top: 35%;
+    }
+
+    .profiel-info {
+        width: 50%;
+        padding: 10px 25px;
+    }
+
+    /* Dashboard */
+
+    #opsomming-container-mini {
+        margin: 30px 30px 100px 250px;
+    }
+
+    #specialisatie-container-mini {
+        margin: 30px 30px 100px 250px;
+    }
+
+    #specialisatie-info-blok {
+        margin: 0px 30px 300px 10px;
+        width: 100%;
+
+    }
+
+    #ervaring-midden-blok-hanne {
+        padding-top: 13px;
+    }
+
+    #ervaring-rechts-blok-hanne {
+        padding-bottom: 39px;
+    }
 }
 
 /* Curriculum Vitea */
