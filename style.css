@@ -93,16 +93,9 @@ body{
     font-family: "Pilo Thin", "sans-serif";
 }
 
-#home-button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: none;
-}
-
 .sidebar-nav a:hover, .dropdown-button:hover{
     color: #CFBAF0;
     background: none;
-    /*border-bottom: 2px solid #a29aa2;*/
 }
 
 .dropdown-links{
@@ -127,15 +120,15 @@ body{
 }
 
 .profiel-foto{
-    width: 25%;
+    width: 35%;
     float: left;
     border: 2px solid mediumpurple;
 }
 
 .profiel-info{
-    width: 75%;
+    width: 65%;
     float: left;
-    padding: 100px;
+    padding: 50px;
     border: 2px solid purple;
 }
 

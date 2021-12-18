@@ -1,0 +1,174 @@
+/*margin en padding: top right bottom left*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: rgb(75,75,75);
+    background-color: #FEFDF8;
+    font-family: "Calibri Light", sans-serif;
+}
+
+.main-header{
+    position: relative;
+    padding-bottom: 50px;
+    background-color: #2995B1;
+}
+
+#alpaca-logo{
+    float: left;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+/*margin en padding: top right bottom left*/
+
+.main-nav{
+    padding-left: 200px;
+}
+
+.main-header h1{
+    margin: 0;
+    color: #ffffff;
+    font-size: 400%;
+    padding-top: 60px;
+    font-family: "Bradley Hand ITC", sans-serif;
+}
+
+.main-header h2{
+    top: 90px;
+    float: left;
+    color: #75757c;
+    font-size: 300%;
+    position: absolute;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.page-sidebar{
+    float: left;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    background-color: #EBEBEB;
+    /*background-color: #FFFCED; - yellow*/
+
+}
+
+.dropdown, .home-button{
+    overflow: hidden;
+    padding-right: 10px;
+    border-bottom: 2px solid #a29aa2;
+}
+
+.icon{
+    width: 70px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.sidebar-nav a{
+    float: right;
+    color: #75757c;
+    cursor: pointer;
+    font-size: 140%;
+    padding-right: 5px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.dropdown-button{
+    border: none;
+    float: right;
+    display: block;
+    color: #75757c;
+    font-size: 150%;
+    background: none;
+    padding-top: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.sidebar-nav a:hover, .dropdown-button:hover{
+    color: #CFBAF0;
+    background: none;
+}
+
+.dropdown-links{
+    display: none;
+    font-size: 70%;
+}
+
+.dropdown:hover .dropdown-links{
+    display: contents;
+}
+
+.container{
+    border: 2px solid #FEFDF8;
+    margin: 80px 100px 450px 300px;
+}
+
+
+.main-image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.profiel-foto{
+    width: 50%;
+    float: left;
+    border: 2px solid mediumpurple;
+}
+
+.profiel-info{
+    width: 50%;
+    float: right;
+    padding: 50px;
+    border: 2px solid purple;
+}
+
+.naam, .slogan {
+    font-weight: bolder;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
+.slogan {
+    font-style: italic;
+}
+
+.main-tekst {
+    font-size: 20px;
+}
+
+.scroll-container{
+    width: 100%;
+    margin-top: 10%;
+    position: center;
+    text-align: center;
+}
+
+.scroll-container img{
+    animation-name: wiggle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+/*
+@keyframes wiggle {
+    from {top: 0px;}
+    to {top: 20px;}
+}*/
+
+.scroll-container p{
+    margin: 0;
+    font-weight: bolder;
+    font-family: "Pilo Thin", "sans-serif";
+}
