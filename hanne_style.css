@@ -10,7 +10,7 @@ body{
 
 .main-header{
     background-color: #002191;
-    padding-bottom: 170px;
+    padding-bottom: 185px;
     position: relative;
 }
 
@@ -23,7 +23,7 @@ body{
 
 #art-hanne {
     float: right;
-    width: 167px;
+    width: 185px;
     margin-right: 5%;
 }
 
@@ -163,7 +163,7 @@ h2 {
 }
 
 #main-scroll-container {
-    top: 88%;
+    top: 86%;
     text-align: center;
 }
 
@@ -278,12 +278,6 @@ h2 {
         height: 87vh;
         position: absolute;
         background-color: #FFFFFF;
-    }
-
-    #art-hanne {
-        float: right;
-        width: 170px;
-        margin-right: 5%;
     }
 
     #image-text-container {
