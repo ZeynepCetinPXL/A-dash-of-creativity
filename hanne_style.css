@@ -38,6 +38,15 @@ body{
     color: #ffffff;
 }
 
+.main-header h2{
+    top: 80px;
+    float: left;
+    font-size: 300%;
+    position: absolute;
+    color: #ffffff;
+    font-family: "Pilo Thin", "sans-serif";
+}
+
 .page-sidebar{
     z-index: 1;
     float: left;
@@ -282,6 +291,10 @@ h2 {
         height: 87vh;
         position: absolute;
         background-color: #FFFFFF;
+    }
+
+    .main-header h2 {
+        top: 70px;
     }
 
     #image-text-container {
