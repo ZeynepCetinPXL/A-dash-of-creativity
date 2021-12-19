@@ -119,8 +119,13 @@ body{
     height: 500px;
 }
 
-.foto{
+.video{
     width: 50%;
+    float: left;
+}
+
+.foto-hoofd{
+    width: 30%;
     float: left;
 }
 
@@ -128,6 +133,38 @@ body{
     width: 50%;
     float: left;
     padding: 50px;
+}
+
+.info-hoofd{
+    width: 70%;
+    float: left;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .foto-hoofd{
+        width: 30%;
+        float: left;
+        padding-top: 180px;
+
+    }
+    .video{
+        width: 40%;
+        float: left;
+        padding-top: 180px;
+    }
+
+    .info{
+        width: 60%;
+        float: left;
+        padding: 50px;
+    }
+
+    #katten{
+        width: 120px;
+        margin-top: -10px;
+        position: absolute;
+    }
 }
 
 .titel{
@@ -154,8 +191,9 @@ body{
     padding: 90px;
 }
 
+/*margin en padding: top right bottom left*/
 .container-midden{
-    margin: 360px 50px 50px 50px;
+    margin: 400px 50px 50px 50px;
     padding: 90px;
 }
 
@@ -244,6 +282,7 @@ body{
 .carousel-item img {
     height: auto;
     display: block;
+    width: 100%;
 }
 
 /*pijltjes*/
