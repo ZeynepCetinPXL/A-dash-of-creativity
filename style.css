@@ -184,6 +184,18 @@ body{
     padding: 20px;
 }
 
+#ervaring-midden-blok {
+    padding-bottom: 6px;
+}
+
+#ervaring-rechts-blok-zeynep {
+    padding-bottom: 20px;
+}
+
+#ervaring-midden-blok-zeynep {
+    padding-bottom: 26px;
+}
+
 .ervaring-blok-info h1{
     text-decoration: underline #CFBAF0;
 }
@@ -349,12 +361,26 @@ body{
     }
 
     #ervaring-midden-blok {
-        padding-top: 13px;
+        padding-top: 39px;
     }
 
     #ervaring-rechts-blok {
         padding-bottom: 39px;
     }
+
+    #ervaring-links-blok-zeynep {
+        padding-bottom: 30px;
+    }
+
+    #ervaring-midden-blok-zeynep {
+        padding-bottom: 21px;
+    }
+
+    #ervaring-rechts-blok-zeynep {
+        padding-bottom: 69px;
+    }
+
+
 
     /* Curriculum Vitae */
 
