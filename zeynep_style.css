@@ -41,9 +41,9 @@ body{
 .main-header h2{
     top: 90px;
     float: left;
-    color: #75757c;
     font-size: 300%;
     position: absolute;
+    color: #ffffff;
     font-family: "Pilo Thin", "sans-serif";
 }
 
