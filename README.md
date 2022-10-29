@@ -1,4 +1,4 @@
-# Website Fat alpaca
+# Website A dash of creativy
 
 Project van werkplekleren 1.
 
@@ -11,5 +11,8 @@ We zijn een groep van 2 die samen zijn gekomen om een geporsonaliseerde website 
 # Disclaimer
 De visuele vorm van de website kunt u zien bij -Visual representation.md-
 
+Verdere info kunt u via deze links terugvinden: https://www.notion.so/A-dash-of-creativity-8d44ee1171884ac89d6cda5d5f1b2922
 
 -- Voor de beste ervaring met onze website, dient u eerst onder "Assets/Lettertype" het lettertype "pilo.thin.otf" te installeren.
+
+
