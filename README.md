@@ -1,4 +1,6 @@
-# Website Werkplekleren1
+# Website Fat alpaca
+
+Project van werkplekleren 1.
 
 ![fat](https://user-images.githubusercontent.com/57445093/198840339-aa4c4657-21cb-4adc-89e5-c80dd8a9b6aa.png)
 
